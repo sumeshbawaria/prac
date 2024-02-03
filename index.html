@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>practice-1</h1>
+    <div id="hero">
+        <h2>demo</h2>
+        <p id="new1">hello</p>
+        <h3 id="new"></h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, fugit? Doloremque sed rem ducimus asperiores
+            sint nobis, dolore voluptatum maiores. Odit fugiat iure fuga reprehenderit sit odio consectetur, eos sunt?
+        </p>
+    </div>
+
+    <script>
+        const element1 = document.getElementById("new1");
+
+        document.getElementById("new").innerHTML = "The text from the intro paragraph is: " + element1.innerHTML;
+    </script>
 </body>
+
 </html>
